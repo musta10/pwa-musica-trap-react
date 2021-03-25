@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#brand {
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.nav-bar {
+  border-top: 5px solid #f9cb0c;
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  width: 100%;
+  align-items: center;
+  /* border-bottom: 1px solid rgb(240, 240, 240);
+        margin-bottom: 20px; */
+}
+#logo img {
+  animation: girar infinite 30s linear;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#logo {
+  display: flex;
+}
