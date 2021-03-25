@@ -1,10 +1,14 @@
-import React from 'react';
-import Header from "./components/Header"
-
+import React from "react";
+import Header from "./components/Header";
+import { BrowserRouter, Switch } from "react-router-dom";
 
 function App() {
   return (
-   <Header />
+    <BrowserRouter>
+      <Switch>
+        <Header />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
