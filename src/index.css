@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tab-list { 
+  /* border-bottom: 1px solid #f0f0f0; */
+ background-color: #F9CB0C;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding-left: 0;
+}
+
+.tab-list-item {
+ display: inline-block;
+ list-style: none;
+ margin-bottom: -1px;
+ padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+ color: white;
+ font-weight: bold;
+ /* border: solid #ccc; */
+ /* border-radius: 4px; */
+ border-width: 1px 1px 0 1px;
+ border-bottom: 5px solid white;
+}
+

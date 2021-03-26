@@ -1,0 +1,25 @@
+.lista-menu{
+    list-style: none;
+    line-height: 42px;
+    /* outline: 1px solid red; */
+    width: 15em;
+    margin: 1em auto;
+    padding-left: 0;
+}
+.lista-menu a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: url("../assets/logo/iconArtistas.png") no-repeat left top;
+    padding-left: 50px;
+    display: block;
+    width: 100%;
+}
+.lista-menu li {
+    box-shadow: 8px 0 rgba(255, 255, 255, .2) inset; 
+    padding-left: 1em;
+    margin-bottom: 20px;
+    /* outline: 1px solid green; */
+    border-radius: 5px;
+    border: 1px solid rgb(121, 110, 110);
+}
