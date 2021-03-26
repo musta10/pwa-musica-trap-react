@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import logo from "../assets/logo/palmeracirculo.png";
 import "../css/header.css"
+import Tabs from "./Tabs"
+import Trap from "./Trap"
+import Lista from "./Lista"
 
 
 class Header extends Component {
@@ -21,7 +24,7 @@ class Header extends Component {
               </p>
             </div>
           </nav>
-          {/* <Tabs> 
+          <Tabs> 
          <div label="Trap"> 
          <Trap />
          </div> 
@@ -29,12 +32,12 @@ class Header extends Component {
            <Lista />
          </div> 
          <div label="Lanueva"> 
-           <Lanueva />
+           {/* <Lanueva /> */}
          </div> 
          <div label="Top 5"> 
-          <Topmusic />
+          {/* <Topmusic /> */}
          </div> 
-       </Tabs>  */}
+       </Tabs> 
         </>
       );
     }

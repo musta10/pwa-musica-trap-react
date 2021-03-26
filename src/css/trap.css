@@ -1,0 +1,33 @@
+
+.menu{
+    background-color: #fff;
+    border-radius: 5px;
+    list-style: none;
+    line-height: 42px;
+    margin: auto;
+    padding-left: 0;
+    width: 15em;
+
+}
+.texto-titulo{
+    text-align: center;
+    color: rgb(121, 110, 110);
+    margin-top: 5px;
+}
+.menu a{
+    background: url("../assets/logo/corona42.png") no-repeat left top;
+    color: #000;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 44px;
+   
+}
+.menu li {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-left: 1.4em;
+    border: 1px solid #f9cb0c;
+    border-radius: 15px;
+}
